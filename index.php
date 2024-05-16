@@ -13,7 +13,7 @@ if(!isset($_SESSION['username'])) {
 	<title>Order</title>
 </head>
 <body>
-    <h1> Welcome to the canteen!  Here are the prices </h1>
+    <h1> Welcome to the canteen <?php echo $_SESSION['username'];?>  Here are the prices </h1>
         <ul>
             <li>Fishball - 30 PHP</li>
             <li>Kikiam - 40 PHP</li>
